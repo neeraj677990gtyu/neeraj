@@ -1,0 +1,14 @@
+div.card{
+ float:left;
+ width: 300px;
+}
+.link{text-decoration: none;
+ color: black;}
+ .link:hover{
+    text-decoration: underline;
+ }
+
+ body{
+   background-image: url("/bird-colorful-colorful-flowers-generative-ai.jpg");
+   background-size: contain;
+ }

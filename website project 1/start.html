@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TAJ RESTAURANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- navbar  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/tajproject.png" alt="Bootstrap" width="40" height="30">
+          </a>
+          <a class="navbar-brand" href="#">TAJ RESTAURANT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BOOKING ORDER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ADDRESS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FOOD MENU 
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/desifood.html" target="_blank">Desi food</a></li>
+                  <li><a class="dropdown-item" href="/chinesefood.html" target="_blank">chinese food</a></li>
+                  <li>
+                    <li><a class="dropdown-item" href="/koreanfood.html" target="_blank">korean food</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/japanesefood.html" target="_blank">japanese food</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel start -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/Korean-BBQ-with-full-side-dishes.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color:rgb(0, 0, 0);font-size: xx-large;">korean barbeque</h5>
+        <p style="color:black;font-size: xx-large;">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/chi.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color:black; font-size: xx-large">Noodles</h5>
+        <p style="color:black; font-size: xx-large">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/5d662c8ea84656a7661be92a_1566977166741.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color:black; font-size: xx-large">chapan bhog</h5>
+        <p style="color:black;font-size: xx-large">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- carousel end -->
+<br><br><br><br>
+
+<!-- image card -->
+<div class="row">
+  <div class="col ">
+<div class="card " style="margin-left:50px;">
+  <img src="/3775416-1453273301.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">leo chef</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+  <div class="card">
+  <img src="/magic-chef.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">jhon chef</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <img src="/images.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adman chef</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+</div></div>
+<!-- card end  -->
+
+<br><br>
+<!-- jumboturn start  -->
+<div class="container ml-10 bg-primary " style="border: 2px solid lightcoral; height: 100%;">
+  <h1 style="margin-left:30%; color: rgb(210, 205, 205);"> History of Taj Restaurant </h1>
+  <div class="mt-10 p-5 bg-light text-white rounded">
+    <h2 style="color:black">Since 1985</h2>
+    <p style="color:gray;">Taj Palace is home to much-feted multi-cuisine and fine-dining speciality restaurants and bars in New Delhi. Connoisseurs enjoy the exquisite European, delicate Chinese, new-age Indian and other cuisines on offer in stunning settings </p>
+  </div>
+</div><br><br><br>
+<!-- jumbotron end  -->
+<!-- vertical card start -->
+<div class="card mb-3" style="height: 300px; width: 100%;">
+  <div class="row g-0" style="height: 600px;">
+    <div class="col-md-4">
+      <img src="/taj.jpeg" class="img-fluid rounded-start" style="height: 300px; width: 100%;" alt="...">
+    </div>
+    <div class="col-md-8" style="border: 2px solid green;">
+      <div class="card-body">
+        <h5 class="card-title">Rick’s</h5>
+        <a href="https://www.google.com/maps/search/?api=1&query=28.604860%2C77.223395&sessionId=48925857-6545-40c1-8097-8ba2c4f6a8dc.0c92c885-7a39-4939-904f-1f1a744ededa&jarvisId=60e6a370-25bb-4a40-b719-882c71a1e250">	Number One Mansingh Road,New Delhi,110011,India</a><br> 
+        +91-594-030-65 
+        
+        <p class="card-text">Indulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge and Indulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated few mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="height: 300px; width: 100%;">
+  <div class="row g-0" style="height: 600px;">
+    <div class="col-md-4">
+      <img src="/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg" class="img-fluid rounded-start" style="height: 300px; width: 100%;" alt="...">
+    </div>
+    <div class="col-md-8 " style="border: 2px solid green;">
+      <div class="card-body">
+        <h5 class="card-title">TOO Hotel</h5>
+        <a href="https://www.google.com/maps/search/?api=1&query=28.604860%2C77.223395&sessionId=48925857-6545-40c1-8097-8ba2c4f6a8dc.0c92c885-7a39-4939-904f-1f1a744ededa&jarvisId=60e6a370-25bb-4a40-b719-882c71a1e250">	A-1932 Surat,Gujrat 110011,India</a><br> 
+        +91-594-030-65 
+        
+        <p class="card-text">Indulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge andIndulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated few mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="height: 300px; width: 100%;">
+  <div class="row g-0" style="height: 600px;">
+    <div class="col-md-4">
+      <img src="/delhi.jpg" class="img-fluid rounded-start" style="height: 300px; width: 100%;" alt="...">
+    </div>
+    <div class="col-md-8" style="border: 2px solid green;">
+      <div class="card-body ">
+        <h5 class="card-title">Lazer Room</h5>
+        <a href="https://www.google.com/maps/search/?api=1&query=28.604860%2C77.223395&sessionId=48925857-6545-40c1-8097-8ba2c4f6a8dc.0c92c885-7a39-4939-904f-1f1a744ededa&jarvisId=60e6a370-25bb-4a40-b719-882c71a1e250">	Number One Aderi East,New Mumbai, Maharashtra,110011,India</a><br> 
+        +91-594-030-65 
+        
+        <p class="card-text">Indulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge andIndulge in an extravagant selection of premium teas and coffee brews, desserts and cigars at this exclusive lounge.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated few mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- vertical card end  -->
+<br><br>
+
+<!-- footer start -->
+<div class="card w-100 " style="height: 400px; background-color: rgba(155, 154, 154, 0.356);padding: 4px;">
+
+  <div class="card-body">
+    <h5 class="card-title">TAJ HOTEL RESTAURANT</h5>
+    <hr>
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="#" class="link">Airline </a> <br>
+        <a href="#" class="link">Taj Magazine </a><br>
+        <a href="#" class="link">J Wellness Circle </a><br>
+        <a href="#" class="link">Site Map </a><br>
+        <a href="#" class="link">Terms Of Use </a><br>
+        <a href="#" class="link">Contact Us </a><br>
+      </div>
+      <div class="col-sm-3">
+        <a href="#" class="link">Accessibility </a> <br>
+        <a href="#" class="link">Languages </a><br>
+        <a href="#" class="link">Privacy Policy </a><br>
+        <a href="#" class="link">press room </a><br>
+        <a href="#" class="link">Careers </a><br>
+        <a href="#" class="link">Blogs </a><br>
+      </div>
+      <div class="col-sm-3">
+        <a href="#" class="link">SAATHI </a> <br>
+        <a href="#" class="link">NIDHI </a><br>
+        <a href="#" class="link">UTSAV</a><br>
+        <a href="#" class="link">INCREDIBLE </a><br>
+        
+      </div>
+      <div class="col-sm">
+        <a href="#" class="link">join our newslatter </a> <br>
+        <button class="btn btn-success">SUBSCRIBE</button> <br>
+       
+        
+        <a href="#" class="link">Connect with us: </a><br>
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-x-twitter fa-2xl"></i>
+        <i class="fa-brands fa-youtube fa-2xl"></i>
+        
+      </div>
+
+      <br><br>
+      <hr>
+      <div class="row">
+        <div class="col">
+        <img src="/hh.png" style="height: 50px; width: 80px; background: rgb(0, 0, 0);" alt=""><br><br>
+        <p style="font-size: small;">©2022 The Indian Hotels Company Limited. All Rights Reserved.</p>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-signature fa-2xl"></i>
+        <img src="/s.png" style="height: 50ox; width: 80px;">
+        <img src="/a.png" style="height: 50ox; width: 80px;">
+        <img src="/images.png" style="height: 50ox; width: 80px;">
+      </div>
+    </div>
+    </div>
+    <button class="btn btn-success"> SIGN UP</button>
+  </div>
+</div>
+
+
+  </body>
+</html>
